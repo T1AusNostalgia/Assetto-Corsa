@@ -1,8 +1,3 @@
--- Please do not share this script without permission from the author.
--- Author: JBoondock
--- Version: 1.0
--- Patreon: www.patreon.com/JBoondock
-
 local requiredSpeed = 95
 local PBlink = 'http' .. 's://www.myinstants.com/media/sounds/holy-shit.mp3'
 
