@@ -3,7 +3,7 @@
 -- Version: 1.0
 -- Patreon: www.patreon.com/JBoondock
 
-local requiredSpeed = 95
+local requiredSpeed = 90
 local PBlink = 'http' .. 's://www.myinstants.com/media/sounds/holy-shit.mp3'
 
 local killingSpree = 'http' ..
