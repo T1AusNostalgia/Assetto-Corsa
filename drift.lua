@@ -319,7 +319,7 @@ function script.drawUI()
 
         ui.pushStyleVar(ui.StyleVar.Alpha, 1)
         ui.pushFont(ui.Font.Title)
-        ui.text('T1Aus\' Drift')
+        ui.text('Shmoovin\' Drift')
         -- ui.sameLine(0, 20)
         ui.pushFont(ui.Font.Huge)
         ui.textColored('PB: ' .. driftPB .. ' pts', colorCombo)
