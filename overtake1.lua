@@ -1,3 +1,4 @@
+
 local requiredSpeed = 95
 local PBlink = 'http' .. 's://www.myinstants.com/media/sounds/holy-shit.mp3'
 
@@ -549,7 +550,7 @@ function script.drawUI()
 
         ui.pushStyleVar(ui.StyleVar.Alpha, 1 - speedWarning)
         ui.pushFont(ui.Font.Title)
-        ui.text('T1Aus\'')
+        ui.text('Shmoovin\'')
         -- ui.sameLine(0, 20)
         ui.pushFont(ui.Font.Huge)
         ui.textColored('PB:' .. personalBest .. ' pts', colorCombo)
