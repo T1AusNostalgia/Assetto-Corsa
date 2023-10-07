@@ -8,18 +8,18 @@
 -- score some points.
 
 -- Key points for future:
--- • Integration with CM’s Quick Drive section, with settings and everything;
--- • These modes might need to be able to force certain CSP parameters — here, for example,
+-- â€¢ Integration with CMâ€™s Quick Drive section, with settings and everything;
+-- â€¢ These modes might need to be able to force certain CSP parameters â€” here, for example,
 --   it should be AI flood parameters;
--- • To ensure competitiveness, they might also need to collect some data, verify integrity
+-- â€¢ To ensure competitiveness, they might also need to collect some data, verify integrity
 --   and possibly record short replays?
--- • Remote future: control scene, AIs, spawn extra geometry and so on.
+-- â€¢ Remote future: control scene, AIs, spawn extra geometry and so on.
 
 -- Event configuration:
-local requiredSpeed = 90
+local requiredSpeed = 80
 
 
--- This function is called before event activates. Once it returns true, it’ll run:
+-- This function is called before event activates. Once it returns true, itâ€™ll run:
 function script.prepare(dt)
     ac.debug("speed", ac.getCarState(1).speedKmh)
     return ac.getCarState(1).speedKmh > 60
@@ -37,7 +37,7 @@ local wheelsWarningTimeout = 0
 
 function script.update(dt)
     if timePassed == 0 then
-        addMessage("Let’s go!", 0)
+        addMessage("Letâ€™s go!", 0)
     end
 
     local player = ac.getCarState(1)
@@ -146,7 +146,7 @@ function script.update(dt)
     end
 end
 
--- For various reasons, this is the most questionable part, some UI. I don’t really like
+-- For various reasons, this is the most questionable part, some UI. I donâ€™t really like
 -- this way though. So, yeah, still thinking about the best way to do it.
 local messages = {}
 local glitter = {}
