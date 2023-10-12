@@ -1,5 +1,5 @@
 
-local requiredSpeed = 95
+local requiredSpeed = 80
 local PBlink = 'http' .. 's://www.myinstants.com/media/sounds/holy-shit.mp3'
 
 local killingSpree = 'http' ..
