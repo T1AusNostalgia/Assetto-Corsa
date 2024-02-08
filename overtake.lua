@@ -194,7 +194,7 @@ function script.drawUI()
     end
   end
 
-  ui.beginTransparentWindow("overtakeScore", vec2(- 6000, 100), vec2(400, 400), false)
+  ui.beginTransparentWindow("overtakeScore", vec2(uiState.windowSize.x * 0.5 - 600, 100), vec2(400, 400), false)
   ui.beginOutline()
 
   ui.pushStyleVar(ui.StyleVar.Alpha, 1 - speedWarning)
