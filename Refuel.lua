@@ -1,4 +1,4 @@
-
+data = ac.getCar()
 fuel = data.fuel
 
 
